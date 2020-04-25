@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cold House</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+<style>
+
+.dot {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:40px;
+  height: 150px;
+  width: 70%;
+  background-color: rgb(165,102,139,.08);
+  display: inline-block;
+  border-radius: 1%;
+
+ padding: 10px 10px 10px 10px; 
+ box-shadow: 2px 2px 11px 3px rgba(0,0,0,.4);   
+    
+             
+              
+
+}
+    .dot:hover
+    {
+        box-shadow: 5px 8px 12px 5px rgba(255, 255, 255, 0.308);
+        
+    }
+    .in-circle-div {
+        width: 10em;
+        display: inline-block;
+    }
+    
+    
+    
+    /* 
+    .in-circle-div-left {
+        width: 10em;
+        display: inline-block;
+        float: left;
+    }
+    .in-circle-div-right {
+        width: 10em;
+        display: inline-block;
+        float: right;
+    }
+    
+    
+    1.change all the spans to div
+    2.remove ids and replace class name with the right class name
+    
+    
+    */
+    .pro-img {
+        max-width: 100%;
+        display: inline-block;
+    }
+    
+    #left{
+        float: left;
+    
+    }
+    #right{
+        float: right;
+    }
+    
+    
+    .pro-page-heading
+    {
+        font-size: 40px;
+        color: antiquewhite
+    }
+    .pro-content {
+        padding: 20px;
+        display: inline;
+        text-align: center;
+        
+    }
+    
+    .pro-name{
+        
+        font-family: Cookie;
+        font-size: 40px;
+    }
+    
+    .left-side, .right-side {
+          z-index: 1;
+        display: inline;
+        margin: 0 0 0 0;
+        position: fixed;
+        
+    }
+    
+    .main-content
+    {
+        z-index: 2;
+        display: inline;
+position: relative;
+    }
+     
+    .fruit{
+        
+        max-height: 200px;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        
+    }
+@media ( max-width: 600px ) {
+    .pro-name{
+        
+        font-size: 20px;
+        
+    }
+    
+    
+    }
+    
+</style>
+    </head>
+    <body class="is-preload landing">
+		<div id="page-wrapper">
+        <header id="header">
+            <h1 id="logo"><a href="index.html">Cold House</a></h1>
+            <nav id="nav">
+                <ul >
+                    <li><a href="index.html">Home</a></li>
+                    <!-- <li>
+                        <a href="#">Layouts</a>
+                        <ul> -->
+								<li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact US</a></li>
+                           
+                    <!-- <li><a href="signup.html" class="button primary">Sign Up/Sign In</a></li> -->
+                </ul>
+
+            </nav>
+            
+        </header>
+            <br> <br><br><br>
+            <div class="all-content">
+        <h3 class="heading" style="margin-bottom: 0px; font-family: 'Abril Fatface', cursive;">  Products</h3> 
+            
+		<div class="dot" >   
+    
+    <div class="in-circle-div" id="left">
+    <img class="pro-img" src="assets/images/s1i.png" style="height: 180px;" >
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name"> Banana Chia Seed Smoothie</div>
+        
+    </div>
+    
+</div>
+    
+<span class="dot" >
+   
+    <div class="in-circle-div" id="right">
+        <img class="pro-img" src="assets/images/s2i.png" style="height: 190px;">
+    
+    </div>
+    <div class="pro-content">
+        <div class="pro-name"> Strawberry Lemon Smoothie</div>
+        
+    </div>
+
+</span>
+    
+<span class="dot" >
+   
+    <div class="in-circle-div" id="left">
+        <img class="pro-img" src="assets/images/s3.png" style="height: 190px;">
+    
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name"> Lemon Mint Smoothie </div>
+        
+    </div>
+</span>
+
+<span class="dot" >  
+    <div class="in-circle-div" id="right">
+        <img class="pro-img" src="assets/images/s4.png">
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name"> Strawberry Smoothie </div>
+        
+    </div>
+</span>
+
+<span class="dot" >
+   
+    <div class="in-circle-div" id="left">
+        <img class="pro-img" src="assets/images/s5.png" >
+    
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name"> Grapefruit Smoothie</div>
+        
+    </div>
+</span>
+
+<span class="dot" >  
+    <div class="in-circle-div" id="right">
+        <img class="pro-img" src="assets/images/s6.png">
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name">Raspberry Smoothie</div>
+        
+    </div>
+</span>
+    
+    <span class="dot" >
+   
+    <div class="in-circle-div" id="left">
+        <img class="pro-img" src="assets/images/s7.png" >
+    
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name"> Mango Smoothie </div>
+        
+    </div>
+</span>
+
+<span class="dot" >  
+    <div class="in-circle-div" id="right">
+        <img class="pro-img" src="assets/images/s8.png" style="height: 190px;">
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name"> Tomato Drink </div>
+        
+    </div>
+</span>
+    <span class="dot" >
+   
+    <div class="in-circle-div" id="left">
+        <img class="pro-img" src="assets/images/s9.png" >
+    
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name"> Strawberry Pineapple Smoothie </div>
+        
+    </div>
+</span>
+
+<span class="dot" >  
+    <div class="in-circle-div" id="right">
+        <img class="pro-img" src="assets/images/s10.png">
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name">Blackberry Strawberry Smoothie</div>
+        
+    </div>
+</span>
+    <span class="dot" >  
+    <div class="in-circle-div" id="left">
+        <img class="pro-img" src="assets/images/s11.png" style="height: 190px;">
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name"> Orange Juice </div>
+        
+    </div>
+</span>
+    
+    <span class="dot" style="margin-bottom: 100px;">  
+    <div class="in-circle-div" id="right">
+        <img class="pro-img" src="assets/images/s13.png">
+    </div>
+    
+    <div class="pro-content">
+        <div class="pro-name">Kiwi Smoothie </div>
+        
+    </div>
+</span>
+   
+</div>   
+            
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; cold house. All rights reserved.</li><li>Design by priyank,rohini,priyanka</a></li>
+                </ul>
+            </footer>
+            </div>
+</div>
+            </body>
+            </html>            
