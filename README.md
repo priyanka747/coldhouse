@@ -1,5 +1,5 @@
 # Cold House | Website
-A website for a smoothie store.
+A fully responsive website for a smoothie store.
 
 ## The Pages worked on by me: 
  * Home Page ( w/ a teammate)
