@@ -11,6 +11,7 @@ A website for a smoothie store.
  Code Editor Used:  **Brackets**  
  Languages & Libraries : **HTML, CSS** 
  
+ ## The website: 
 <img src="https://github.com/RohiniLawrence/rohinilawrence.github.io/blob/master/images/Cold%20House.gif" width="600"> 
 
 
